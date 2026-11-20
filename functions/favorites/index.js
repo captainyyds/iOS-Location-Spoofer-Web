@@ -38,7 +38,7 @@ export async function onRequestPost(context) {
     }
 
     const fav = {
-      id:                 Date.now().toString(36),
+      id:                 crypto.randomUUID(),
       name:               (data.name || '未命名').slice(0, 30),
       latitude:           data.latitude,
       longitude:          data.longitude,

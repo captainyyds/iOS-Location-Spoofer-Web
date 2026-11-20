@@ -1,5 +1,11 @@
 # iOS-Location-Spoofer-Web
 
+## 本仓库的服务器适配状态（2026-11-20）
+
+本分支增加 Node.js 22 + 本地持久化存储的 Linux 部署方式，无 npm 第三方依赖。部署、暂停、恢复和重新安装的步骤见 [DEPLOYMENT.md](DEPLOYMENT.md)。原作者署名和 CC BY-NC-SA 4.0 许可保留。
+
+**当前服务已暂停。网页、API 和重启后数据恢复已验证；iPhone 13 / iOS 18.7.8 的微信朋友圈改定位实测未成功，原因尚未确定。以下上游兼容性与效果声明不代表本仓库的实测结论。** 本次未修改核心定位改写脚本，不将网站部署成功视为手机定位改写成功。
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > ### ⚠️ 【防骗与严禁倒卖声明】
